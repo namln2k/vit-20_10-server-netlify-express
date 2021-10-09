@@ -1,8 +1,5 @@
 const express = require('express');
 const serverless = require('serverless-http');
-var cors = require('cors')
-
-app.use(cors())
 
 const app = express();
 
