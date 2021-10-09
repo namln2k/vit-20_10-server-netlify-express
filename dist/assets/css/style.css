@@ -1,0 +1,440 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+/* Base */
+:root {
+    --font-bigger: 4rem;
+    --font-big: 2.5rem;
+    --font-normal: 2rem;
+    --font-small: 1.5rem;
+
+    --first-color: #1a73e8;
+    --input-color: #80868b;
+    --border-color: #dadce0;
+    --body-font: 'Roboto', sans-serif;
+    --normal-font-size: 1rem;
+    --small-font-size: 0.75rem;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 62.5%;
+    font-family: var(--body-font);
+}
+
+.main {
+    height: 100vh;
+}
+
+.title {
+    position: fixed;
+    top: 3rem;
+    left: 10%;
+    right: 10%;
+    font-size: var(--font-bigger);
+    font-weight: 500;
+    text-align: center;
+}
+
+#btn-yes,
+#btn-no {
+    position: fixed;
+    top: 16rem;
+    transform: translateX(-50%);
+    transition: 0.2s ease-in-out;
+}
+
+#btn-yes {
+    left: 25%;
+    transform: translateX(-50%);
+}
+
+#btn-no {
+    left: 75%;
+    transform: translateX(-50%);
+}
+
+.btn {
+    display: inline-block;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    min-width: 5rem;
+    text-align: center;
+    padding: 1rem 2rem;
+    border-radius: 5rem;
+    cursor: pointer;
+    transition: opacity ease-in 0.2s;
+    font-size: var(--font-normal);
+}
+
+.btn--success {
+    background-color: #71be34;
+}
+
+.btn--primary {
+    background-color: var(--first-color);
+}
+
+.btn--danger {
+    background-color: #ff623d;
+}
+
+.btn--disable {
+    opacity: 0.5 !important;
+    pointer-events: none;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.2s ease-in-out;
+}
+
+.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+.modal__body {
+    position: relative;
+    z-index: 1;
+    transform: scale(0.5);
+    transition: transform 0.2s ease-in-out;
+}
+
+.active .modal__body {
+    transform: scale(1);
+}
+
+.modal__close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+.card {
+    width: 60rem;
+    background-color: #fff;
+    border-radius: 0.5rem;
+    padding: 0 1rem;
+}
+
+.card__close-icon {
+    font-size: var(--font-normal);
+    transition: opacity linear 0.2s;
+}
+
+.card__close-icon:hover {
+    opacity: 0.7;
+}
+
+.card__title {
+    font-size: var(--font-big);
+    text-align: center;
+    padding-top: 2rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.note {
+    text-align: center;
+    font-size: var(--normal-font-size);
+    margin-top: 0.5rem;
+}
+
+.card__content {
+    padding: 3rem 0 2rem;
+    text-align: center;
+}
+
+.card__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 2.5rem;
+}
+
+.card__input {
+    width: 80%;
+    font-size: var(--font-small);
+    border: 1px solid var(--border-color);
+    border-radius: 0.5rem;
+    outline: none;
+    padding: 1rem;
+    background: none;
+    font-family: var(--body-font);
+}
+
+.card__input:focus {
+    border-color: var(--first-color);
+}
+
+.card__btn {
+    width: 16rem;
+}
+
+.card__text {
+    font-size: var(--font-normal);
+    padding-bottom: 3rem;
+}
+
+.heart {
+    width: 150px;
+    position: absolute;
+    left: 20px;
+    bottom: 10px;
+    pointer-events: none;
+}
+
+.heart__wrap {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 900px;
+    display: flex;
+    pointer-events: none;
+    z-index: 10;
+}
+
+.heart-flying {
+    width: 300px;
+    pointer-events: none;
+}
+
+/* Form login */
+.form {
+    width: 360px;
+    padding: 4rem 2rem;
+    border-radius: 1rem;
+    background-color: #fff;
+    box-shadow: 0 10px 25px rgba(92, 99, 105, 0.2);
+}
+
+.form__title {
+    font-weight: 400;
+    margin-bottom: 3rem;
+    font-size: var(--font-normal);
+}
+
+.form__group {
+    position: relative;
+    height: 48px;
+    margin-bottom: 1.5rem;
+}
+
+.form__input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    font-size: var(--normal-font-size);
+    border: 1px solid var(--border-color);
+    border-radius: 0.5rem;
+    outline: none;
+    padding: 1rem;
+    background: none;
+    z-index: 1;
+}
+
+.form__label {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    padding: 0 0.25rem;
+    background-color: #fff;
+    color: var(--input-color);
+    font-size: var(--normal-font-size);
+    transition: 0.3s;
+}
+
+.form__button {
+    display: block;
+    margin-left: auto;
+    padding: 0.75rem 2rem;
+    outline: none;
+    border: none;
+    background-color: var(--first-color);
+    color: #fff;
+    font-size: var(--normal-font-size);
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.form__button:hover {
+    box-shadow: 0 10px 36px rgba(0, 0, 0, 0.15);
+}
+
+/* Input focus move up label */
+.form__input:focus + .form__label {
+    top: -0.5rem;
+    left: 0.8rem;
+    color: var(--first-color);
+    font-size: var(--small-font-size);
+    font-weight: 500;
+    z-index: 10;
+}
+
+/* Input focus sticky top level */
+.form__input:not(:placeholder-shown).form__input:not(:focus) + .form__label {
+    top: -0.5rem;
+    left: 0.8rem;
+    font-size: var(--small-font-size);
+    font-weight: 500;
+    z-index: 10;
+}
+
+/* Input focus */
+.form__input:focus {
+    border: 2px solid var(--first-color);
+}
+
+/* Media queries */
+@media only screen and (max-width: 999px) {
+    :root {
+        --font-bigger: 3rem;
+        --font-big: 2rem;
+        --font-normal: 1.5rem;
+    }
+
+    .btn {
+        padding: 0.8rem 1rem;
+    }
+
+    .card {
+        width: 40rem;
+    }
+
+    .card__content-img {
+        width: 12rem;
+    }
+
+    .card__btn {
+        width: 12rem;
+    }
+
+    .heart {
+        width: 125px;
+    }
+
+    .heart__wrap {
+        width: 600px;
+    }
+
+    .heart-flying {
+        width: 200px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .card {
+        width: 34rem;
+    }
+
+    .card__content {
+        flex-direction: column;
+    }
+
+    .card__text {
+        margin-bottom: 1rem;
+    }
+
+    .card__content-img {
+        width: 13rem;
+    }
+
+    .heart {
+        width: 100px;
+    }
+
+    .heart__wrap {
+        width: 500px;
+    }
+
+    .heart-flying {
+        width: 250px;
+    }
+
+    .heart-flying:last-child {
+        display: none;
+    }
+
+    .card__btn {
+        width: 10rem;
+    }
+}
+
+@media only screen and (max-width: 568px) {
+    :root {
+        --font-bigger: 2rem;
+        --font-big: 1.7rem;
+        --font-normal: 1.2rem;
+    }
+
+    .card {
+        width: 28rem;
+    }
+
+    .card__btn {
+        width: 9rem;
+    }
+
+    .heart__wrap {
+        width: 400px;
+    }
+
+    .heart-flying {
+        width: 200px;
+    }
+}
+
+@media only screen and (max-width: 460px) {
+    .card {
+        width: 18rem;
+    }
+
+    .card__btn {
+        width: 5rem;
+    }
+
+    .heart {
+        width: 80px;
+        left: 10px;
+    }
+
+    .heart__wrap {
+        width: 280px;
+    }
+
+    .heart-flying {
+        width: 280px;
+    }
+
+    .heart-flying:nth-child(2) {
+        display: none;
+    }
+}

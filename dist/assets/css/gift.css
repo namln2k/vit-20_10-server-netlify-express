@@ -1,0 +1,138 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+/* Base */
+:root {
+    --font-bigger: 4rem;
+    --font-big: 2.5rem;
+    --font-normal: 2rem;
+    --font-small: 1.5rem;
+
+    --body-font: 'Roboto', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 62.5%;
+    font-family: var(--body-font);
+}
+
+/* Gift */
+.main {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 1rem;
+    text-align: center;
+    overflow: hidden;
+}
+
+.title {
+    margin-top: 2rem;
+    font-size: var(--font-big);
+    font-weight: 500;
+}
+
+.title__icon {
+    color: red;
+}
+
+.sub__title {
+    margin-top: 2rem;
+    font-size: var(--font-small);
+}
+
+.gift {
+    width: 800px;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+
+.hide {
+    display: none;
+}
+
+.confetti {
+    position: fixed;
+    top: 4rem;
+    right: 13%;
+    width: 200px;
+    pointer-events: none;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+
+.col {
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.c-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+
+
+/* Media queries */
+@media only screen and (max-width: 999px) {
+    :root {
+        --font-bigger: 3rem;
+        --font-big: 2rem;
+        --font-normal: 1.5rem;
+    }
+
+    .confetti {
+        right: 9%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .m-4 {
+        flex: 0 0 33.33333%;
+        max-width: 33.33333%;
+    }
+}
+
+@media only screen and (max-width: 568px) {
+    :root {
+        --font-bigger: 2rem;
+        --font-big: 1.7rem;
+        --font-normal: 1.2rem;
+    }
+
+    .confetti {
+        width: 150px;
+    }
+
+    .s-6 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+@media only screen and (max-width: 460px) {
+    :root {
+        --font-big: 1.5rem;
+        --font-small: 0.935rem;
+    }
+
+    .gift {
+        width: 500px;
+    }
+
+    .sm-12 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}

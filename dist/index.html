@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chào mừng ngày 20/10</title>
+    <!-- Unicon Icon -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <!-- Custom Style -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <div class="main">
+        <h1 class="title" id="title">
+            Chị em có iu anh em hông nè 😁😁
+        </h1>
+    </div>
+    <div class="btn btn--success" id="btn-yes">Có</div>
+    <div class="btn btn--danger" id="btn-no">Khum</div>
+    </div>
+
+    <div class="modal" id="modal-1">
+        <div class="modal__body">
+            <div class="heart" id="heart"></div>
+
+            <div class="modal__close" id="modal-1-close">
+                <i class="uil uil-times card__close-icon"></i>
+            </div>
+            <div class="card">
+                <h1 class="card__title">
+                    Nói thử xem tại sao lại iu chúng mình nha 😘😘
+                </h1>
+                <p class="note">
+                    Lí do phải dài tối thiểu
+                    <span id="total"></span>
+                    ký tự
+                    <br>
+                    Cần nhập thêm
+                    <span id="curr"></span>
+                    ký tự nữa
+                    <br>
+                    Phải nhập đủ mới ấn được nút "OK" nhé :>>
+                </p>
+
+                <div class="card__content">
+                    <form action="" class="card__form" id="form-1">
+                        <textarea class="card__input" id="card-input" cols="0" rows="5"></textarea>
+                        <div class="btn btn--success btn--disable card__btn" id="card-ok">OK</div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="modal-2">
+        <div class="modal__body">
+            <div class="heart__wrap">
+                <div class="heart-flying"></div>
+                <div class="heart-flying"></div>
+                <div class="heart-flying"></div>
+            </div>
+
+            <div class="card">
+                <div class="card__content">
+                    <p class="card__text">
+                        Hihi, chúng mình đều biết điều đó mà 🥰🥰😘
+                        <br>
+                        Vì sự đáng iêu này nên chị em hãy đăng nhập để xem tiếp theo còn gì bất ngờ nữa nha 😚😚
+                    </p>
+                    <div class="btn btn--primary" id="card-login">Đăng nhập</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="modal-form-login">
+        <div class="modal__body">
+            <form action="" class="form" id="form-login" method="POST">
+                <h1 class="form__title">Đăng nhập</h1>
+
+                <div class="form__group">
+                    <input type="text" class="form__input" name="username" readonly
+                        onfocus="this.removeAttribute('readonly')" autocomplete="off" placeholder=" " required>
+                    <label for="" class="form__label">Tên đăng nhập</label>
+                </div>
+
+                <div class="form__group">
+                    <input type="password" class="form__input" name="password" readonly
+                        onfocus="this.removeAttribute('readonly')" autocomplete="off" placeholder=" " required>
+                    <label for="" class="form__label">Mật khẩu</label>
+                </div>
+
+                <input type="submit" class="form__button" value="Đăng nhập">
+            </form>
+        </div>
+    </div>
+
+    <!-- Bodymovin -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.13/lottie.min.js"
+        integrity="sha512-srGxQe2w7s50+5/nNgEVKYtBm15zRylJwdjxYnGEZr3mmHFJKFjA/ImA2OKizVzoIDX8XISMHDI1+az9pnumbQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- Main JS -->
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
