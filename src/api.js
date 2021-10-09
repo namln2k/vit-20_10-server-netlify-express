@@ -31,20 +31,23 @@ router.post('/', (req, res) => {
         password: req.body.password,
     }
 
-    var imgJSON;
+    var fullName = "";
+    var images = [];
+    var wishes = [];
+
     if (loginInfo.username == 'nam' && loginInfo.password == '123') {
-        imgJSON = 'nam';
-        res.status(200).json({
-            imgData: imgJSON
-        })
+
     } else if (loginInfo.username == 'tan') {
-        imgJSON = 'tan';
-        res.status(200).json({
-            imgData: imgJSON
-        })
+        
     } else {
         res.status(404);
     }
+
+    res.status(200).json({
+        fullName: fullName,
+        images: images,
+        wishes: wishes
+    })
 })
 
 app.use('/.netlify/functions/api', router);
