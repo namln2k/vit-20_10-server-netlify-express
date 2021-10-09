@@ -37,10 +37,10 @@ btnNo.addEventListener('click', () => {
     let newLeft = Math.abs(Math.floor(Math.random() * bodyWidth - btnWidth))
     let newTop = Math.abs(Math.floor(Math.random() * bodyHeight - btnHeight))
 
-    while(newLeft < btnWidth || newLeft + btnWidth >= bodyWidth || newLeft >= oldLeft - btnWidth && newLeft <= oldLeft + btnWidth) {
+    while (newLeft < btnWidth || newLeft + btnWidth >= bodyWidth || newLeft >= oldLeft - btnWidth && newLeft <= oldLeft + btnWidth) {
         newLeft = Math.abs(Math.floor(Math.random() * bodyWidth - btnWidth))
     }
-    while(newTop < titleHeight || newTop + btnHeight >= bodyHeight || newTop >= oldTop - btnHeight && newTop <= oldTop + btnHeight) {
+    while (newTop < titleHeight || newTop + btnHeight >= bodyHeight || newTop >= oldTop - btnHeight && newTop <= oldTop + btnHeight) {
         newTop = Math.abs(Math.floor(Math.random() * bodyHeight - btnHeight))
     }
 
@@ -79,13 +79,13 @@ total.innerText = reason.length
 curr.innerText = reason.length
 const inputReason = document.getElementById('card-input')
 inputReason.oninput = () => {
-    if(count < reason.length) {
+    if (count < reason.length) {
         inputReason.value = reason.substring(0, ++count)
         curr.innerText = reason.length - count
     } else {
         inputReason.value = reason
     }
-    if(count === reason.length) {
+    if (count === reason.length) {
         btnOk.classList.remove('btn--disable')
     }
 }
@@ -107,9 +107,19 @@ btnOk.addEventListener('click', () => {
 const login = document.getElementById('card-login')
 const modalFormLogin = document.getElementById('modal-form-login')
 const formLogin = document.getElementById('form-login')
-formLogin.onsubmit = e => {
+
+$('#form-login').on('submit', function (e) {
+    $.ajax({
+        type: 'POST',
+        url: 'https://from-boys-vit-with-love.netlify.app/.netlify/functions/api',
+        data: $(this).serialize(),
+        success: function (data) {
+            alert(data);
+        }
+    });
     e.preventDefault();
-}
+})
+
 login.addEventListener('click', () => {
     modal_2.classList.remove('active')
     setTimeout(() => {
