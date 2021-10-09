@@ -116,6 +116,7 @@ $('#form-login').on('submit', function (e) {
         url: 'https://from-boys-vit-with-love.netlify.app/.netlify/functions/api',
         data: $(this).serialize(),
         success: function (data) {
+            console.log(data);
             window.sessionStorage.setItem('imageURL', "../img/" + data.imgData + ".jpg");
             window.location.href = '/dist/gift.html';
         },
