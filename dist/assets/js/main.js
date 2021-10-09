@@ -108,13 +108,19 @@ const login = document.getElementById('card-login')
 const modalFormLogin = document.getElementById('modal-form-login')
 const formLogin = document.getElementById('form-login')
 
+var imageData;
+
 $('#form-login').on('submit', function (e) {
     $.ajax({
         type: 'POST',
         url: 'https://from-boys-vit-with-love.netlify.app/.netlify/functions/api',
         data: $(this).serialize(),
         success: function (data) {
-            alert(data);
+            window.sessionStorage.setItem('imageURL', "../img/" + data.imgData + ".jpg");
+            window.location.href = '/dist/gift.html';
+        },
+        fail: function (xhr, textStatus, errorThrown) {
+            alert('request failed');
         }
     });
     e.preventDefault();

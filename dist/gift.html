@@ -12,7 +12,7 @@
 </head>
 <body>
     <div class="main">
-        <div class="hide" id="wrap-1">
+        <div id="wrap-1">
             <h1 class="title">
                 Xin chào
                 <span id="name">Tân</span>!
@@ -29,20 +29,31 @@
             <div class="confetti" id="confetti"></div>
         </div>
 
-        <div class="wrap_2" id="wrap-2">
+        <div class="wrap_2 hide" id="wrap-2">
             <h1 class="title">
                 Hãy ấn vào từng tấm thiệp để thấy được tâm tư tình cảm của chúng mình nha 🥰🥰
             </h1>
 
-            <div class="row">
-                <div class="card col c-3 m-4 s-6 sm-12"></div>
-                <div class="card col c-3 m-4 s-6 sm-12"></div>
-                <div class="card col c-3 m-4 s-6 sm-12"></div>
-                <div class="card col c-3 m-4 s-6 sm-12"></div>
-                <div class="card col c-3 m-4 s-6 sm-12"></div>
-                <div class="card col c-3 m-4 s-6 sm-12"></div>
-                <div class="card col c-3 m-4 s-6 sm-12"></div>
-                <div class="card col c-3 m-4 s-6 sm-12"></div>
+            <div class="wrapper">
+                <div class="card"></div>
+                <div class="card"></div>
+                <div class="card"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal">
+        <div class="modal__body">
+            <div class="modal__close">
+                <i class='bx bx-x modal__close-icon'></i>
+            </div>
+            <div class="modal__card">
+                <p class="card__text">
+                    Lời chúc ở đây nhé
+                </p>
+                <div class="card__img-container">
+                    <img src="./assets/img/thiep.jpg" alt="" class="card__img">
+                </div>
             </div>
         </div>
     </div>
