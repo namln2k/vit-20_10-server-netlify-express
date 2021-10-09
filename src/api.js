@@ -38,14 +38,14 @@ router.post('/', (req, res) => {
     var images = [];
     var wishes = [];
 
-    if (loginInfo.username == "nam") {
+    if (loginInfo.username == "nam" && loginInfo.password == "123") {
         res.status(200).json({
             fullName: fullName,
             images: images,
-            wishes: wishes
+            wishes: "Wish you a happy day"
         })
     } else {
-        res.sendStatus(404);
+        res.status(404).send("Sorry can't find that!")
     }
 })
 
