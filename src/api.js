@@ -38,11 +38,15 @@ router.post('/', (req, res) => {
     var images = [];
     var wishes = [];
 
-    res.status(200).json({
-        fullName: fullName,
-        images: images,
-        wishes: wishes
-    })
+    if (loginInfo.username == "nam") {
+        res.status(200).json({
+            fullName: fullName,
+            images: images,
+            wishes: wishes
+        })
+    } else {
+        res.statusCode(400);
+    }
 })
 
 app.use('/.netlify/functions/api', router);
