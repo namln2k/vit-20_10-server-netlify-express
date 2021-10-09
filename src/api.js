@@ -34,15 +34,17 @@ router.post('/', (req, res) => {
     var imgJSON;
     if (loginInfo.username == 'nam' && loginInfo.password == '123') {
         imgJSON = 'nam';
+        res.status(200).json({
+            imgData: imgJSON
+        })
     } else if (loginInfo.username == 'tan') {
         imgJSON = 'tan';
+        res.status(200).json({
+            imgData: imgJSON
+        })
     } else {
         res.status(404);
-        continue;
     }
-    res.status(200).json({
-        imgData: imgJSON
-    })
 })
 
 app.use('/.netlify/functions/api', router);
