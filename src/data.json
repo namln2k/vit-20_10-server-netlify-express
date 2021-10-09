@@ -1,0 +1,67 @@
+[
+    {
+        "username": "nam.ln.k63", 
+        "fullName": "Lê Nhật Nam",
+        "password": "f1ds1f65ds1f561sdf",
+        "images": [     
+            "link1",
+            "link2"
+        ],
+        "wishes": [       
+            "wish1",
+            "wish2"
+        ]
+    },
+    {
+        "username": "tan.nn.k63",
+        "fullName": "Nguyễn Ngọc Tân",
+        "password": "ffwF2wRr5",
+        "images": [
+            "link1",
+            "link2"
+        ],
+        "wishes": [
+            "wish1",
+            "wish2"
+        ]
+    },
+    {
+        "username": "hieu.nv.k63",
+        "fullName": "Nguyễn Văn Hiếu",
+        "password": "fsfsd35g53fsd",
+        "images": [
+            "link1",
+            "link2"
+        ],
+        "wishes": [
+            "wish1",
+            "wish2"
+        ]
+    },
+    {
+        "username": "son.nv.k62",
+        "fullName": "Nguyễn Văn Sơn",
+        "password": "fsfsd35g53fsd",
+        "images": [
+            "link1",
+            "link2"
+        ],
+        "wishes": [
+            "wish1",
+            "wish2"
+        ]
+    },
+    {
+        "username": "nghia.dt.k64",
+        "fullName": "Đinh Trọng Nghĩa",
+        "password": "fsfsd35g53fsd",
+        "images": [
+            "link1",
+            "link2"
+        ],
+        "wishes": [
+            "wish1",
+            "wish2"
+        ]
+    }    
+]

@@ -1,5 +1,8 @@
 const express = require('express');
 const serverless = require('serverless-http');
+var cors = require('cors')
+
+app.use(cors())
 
 const app = express();
 
@@ -34,14 +37,6 @@ router.post('/', (req, res) => {
     var fullName = "";
     var images = [];
     var wishes = [];
-
-    if (loginInfo.username == 'nam' && loginInfo.password == '123') {
-
-    } else if (loginInfo.username == 'tan') {
-        
-    } else {
-        res.status(404);
-    }
 
     res.status(200).json({
         fullName: fullName,
