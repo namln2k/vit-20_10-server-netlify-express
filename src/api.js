@@ -45,7 +45,7 @@ router.post('/', (req, res) => {
             wishes: wishes
         })
     } else {
-        res.statusCode(400);
+        res.sendStatus(404);
     }
 })
 
