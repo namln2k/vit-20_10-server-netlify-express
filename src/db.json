@@ -1,13 +1,13 @@
 [
     {
-        "username": "nam.ln.k63", 
+        "username": "nam.ln.k63",
         "fullName": "Lê Nhật Nam",
         "password": "f1ds1f65ds1f561sdf",
-        "images": [     
+        "images": [
             "link1",
             "link2"
         ],
-        "wishes": [       
+        "wishes": [
             "wish1",
             "wish2"
         ]
@@ -63,5 +63,5 @@
             "wish1",
             "wish2"
         ]
-    }    
+    }
 ]
