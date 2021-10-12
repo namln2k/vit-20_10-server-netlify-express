@@ -1,10 +1,16 @@
 const express = require('express');
 const serverless = require('serverless-http');
+
+/* 
+    Database object
+    Note: db[0] is the default data (If username is not in db)
+*/
 const db = require('./db.json');
 
 const app = express();
 const router = express.Router();
 
+// Common password for all users
 const PASSWORD = "vit201021";
 
 // Configurations to enable CORS
@@ -30,26 +36,47 @@ app.use(express.urlencoded({
 }));
 
 /*
+    Params: 
+        username
+        password
     Return:
-        0 if username does not exist in db
-        1 if username exists in db and password is correct
-        2 if username exists in db but password is incorrect
+        0: username does not exist in db
+        1: username exists in db and password is correct
+        2: username exists in db but password is incorrect
 */
 function validateLogin(username, password) {
     if (findByUsername(username) === undefined)
+        // If username does not exist in db
         return 0;
     if (password == PASSWORD)
+        // If username exists in db and password is correct
         return 1;
+    // If username exist in db but password is wrong
     return 2;
 }
 
+/*
+    Params: 
+        username
+    Return:
+        girl data if username found in db
+        else returns undefined
+*/
 function findByUsername(username) {
-    return db.find(item => {
-        item.username == username;
-    })
+    var girl = undefined;
+
+    // Traverse db to find suitable username
+    db.forEach(item => {
+        if (item.username == username) {
+            girl = item;
+        }
+    });
+
+    // Returns girl data if found, else returns undefined
+    return girl;
 }
 
-// Handle post request (username, password)
+// Handle post request with body { username, password }
 router.post('/', (req, res) => {
     // Get username and password
     const loginInfo = {
@@ -80,9 +107,7 @@ router.post('/', (req, res) => {
         })
     } else if (isLoginValid == 1) {
         // Username exists in db, getting data
-        var girl = findByUsername(username);
-
-        console.log("girl:", girl);
+        var girl = findByUsername(loginInfo.username);
 
         fullName = girl.fullName;
         images = girl.images;
