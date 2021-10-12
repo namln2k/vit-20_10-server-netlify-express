@@ -1,6 +1,6 @@
 const express = require('express');
 const serverless = require('serverless-http');
-const fs = require('fs')
+const fs = require('fs');
 
 const app = express();
 const router = express.Router();
@@ -29,9 +29,6 @@ app.use(express.urlencoded({
     extended: true
 }));
 
-// Parse database to object array
-var db = JSON.parse(fs.readFileSync('./data.json', 'utf8'));
-
 /*
     Return:
         0 if username does not exist in db
@@ -39,6 +36,9 @@ var db = JSON.parse(fs.readFileSync('./data.json', 'utf8'));
         2 if username exists in db but password is incorrect
 */
 function validateLogin(username, password) {
+    // Init db
+    var db = initDb();
+
     if (db.some(item => { item.username == username }) === undefined)
         return 0;
     if (password == PASSWORD)
@@ -46,6 +46,15 @@ function validateLogin(username, password) {
     return 2;
 }
 
+function initDb() {
+    // Parse database to object array
+    fs.readFileSync('../data.json', (err, data) => {
+        if (err)
+            console.log(err);
+        else
+            db = JSON.parse(data);
+    });
+}
 
 // Handle post request (username, password)
 router.post('/', (req, res) => {
