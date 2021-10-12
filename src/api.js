@@ -1,7 +1,6 @@
-<script type="text/javascript" src="data.json"></script>
-
 const express = require('express');
 const serverless = require('serverless-http');
+const fs = require('fs')
 
 const app = express();
 const router = express.Router();
@@ -31,7 +30,7 @@ app.use(express.urlencoded({
 }));
 
 // Parse database to object array
-const db = JSON.parse(data);
+var db = JSON.parse(fs.readFileSync('./data.json', 'utf8'));
 
 /*
     Return:
