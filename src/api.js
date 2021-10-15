@@ -101,17 +101,19 @@ router.post('/', (req, res) => {
 
     // Password is wrong
     if (isLoginValid == 0)
-        res.status(404).send("Wrong password");
+        res.status(200).json({
+            message: "Wrong password",
+        })
 
     // Username does not exist in db
     else if (isLoginValid == 2)
-        res.status(204).send();
+        res.status(200).json({
+            message: "Default",
+        })
 
     // Username exists in db, getting data and send to client 
     else {
         var girl = findByUsername(loginInfo.username);
-
-        console.log(girl);
 
         fullName = girl.fullName;
         image = girl.image;
