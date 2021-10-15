@@ -116,8 +116,8 @@ router.post('/', (req, res) => {
         var girl = findByUsername(loginInfo.username);
 
         fullName = girl.fullName;
-        img_h = girl.img-h;
-        img_v = girl.img-v;
+        img_h = girl.img_h;
+        img_v = girl.img_v;
         wish = girl.wish;
 
         res.status(200).json({
