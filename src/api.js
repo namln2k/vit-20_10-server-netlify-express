@@ -35,6 +35,11 @@ app.use(express.urlencoded({
     extended: true
 }));
 
+if ((new Set(db)).size !== db.length)
+    console.log("Duplicated");
+else
+    console.log("Okay");
+
 /*
     Params: 
         username
@@ -85,8 +90,8 @@ router.post('/', (req, res) => {
 
     // Init response
     var fullName = "";
-    var images = [];
-    var wishes = [];
+    var image = [];
+    var wish = [];
 
     // Validate login
     var isLoginValid = validateLogin(loginInfo.username, loginInfo.password);
@@ -95,31 +100,23 @@ router.post('/', (req, res) => {
     if (isLoginValid == 0)
         res.status(404).send("Wrong password");
 
-    // Username does not exist in db, so send default values
-    else if (isLoginValid == 2) {
-        fullName = db[0].fullName;
-        images = db[0].images;
-        wishes = db[0].wishes;
+    // Username does not exist in db
+    else if (isLoginValid == 2)
+        res.status(204).send();
 
-        res.status(200).json({
-            message: "Default",
-            fullName: fullName,
-            images: images,
-            wishes: wishes
-        })
-    } else {
-        // Username exists in db, getting data and send to client 
+    // Username exists in db, getting data and send to client 
+    else {
         var girl = findByUsername(loginInfo.username);
 
         fullName = girl.fullName;
-        images = girl.images;
-        wishes = girl.wishes;
+        image = girl.image;
+        wish = girl.wish;
 
         res.status(200).json({
             message: "Success",
             fullName: fullName,
-            images: images,
-            wishes: wishes
+            image: image,
+            wish: wish
         })
     }
 })

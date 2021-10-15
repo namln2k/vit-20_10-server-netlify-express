@@ -1,65 +1,405 @@
 [
-    {
-        "fullName": "bạn",
-        "images": [
-            "link1",
-            "link2"
-        ],
-        "wishes": [
-            "wish1",
-            "wish2"
-        ]
-    },
-    {
-        "username": "tan.nn.k63",
-        "fullName": "Nguyễn Ngọc Tân",
-        "password": "ffwF2wRr5",
-        "images": [
-            "link1",
-            "link2"
-        ],
-        "wishes": [
-            "wish1",
-            "wish2"
-        ]
-    },
-    {
-        "username": "hieu.nv.k63",
-        "fullName": "Nguyễn Văn Hiếu",
-        "password": "fsfsd35g53fsd",
-        "images": [
-            "link1",
-            "link2"
-        ],
-        "wishes": [
-            "wish1",
-            "wish2"
-        ]
-    },
-    {
-        "username": "son.nv.k62",
-        "fullName": "Nguyễn Văn Sơn",
-        "password": "fsfsd35g53fsd",
-        "images": [
-            "link1",
-            "link2"
-        ],
-        "wishes": [
-            "wish1",
-            "wish2"
-        ]
-    },
-    {
-        "username": "nghia.dt.k64",
-        "fullName": "Đinh Trọng Nghĩa",
-        "password": "fsfsd35g53fsd",
-        "images": [
-            "link1",
-            "link2"
-        ],
-        "wishes": [
-            "wish1",
-            "wish2"
-        ]
-    }
+  {
+    "fullName": "Trịnh Thu Hương",
+    "username": "huong.tt.k65",
+    "image": [],
+    "wish": [
+      "Nhân ngày 20/10, chúc em gái Hương luôn xinh đẹp tuyệt vời, học giỏi và sớm có người yêu để ae chiêm ngưỡng nhé! Trái tim ae nhóm 5 lúc nào cũng có phần cho e :V ",
+      "Chúc bạn Hương thứ hai có 1 ngày 20/10 thật vui vẻ, ý nghĩa nhé; chúc bạn học tập thật tốt để giành được học bổng và vẫn chúc bạn sớm có người yêu nhé :3 From Boy VIT with love",
+      "Nhân dịp 20/10 chúc bạn Hương có một ngày thật vui vẻ nhá, càng ngày càng xinh đẹp học giỏi nè :D",
+      "Nhân dịp 20/10 chúc bạn Trịnh Hương luôn luôn tự tin vào bản thân, xinh đẹp, học tập tốt có học bổng <3",
+      "Chúc em không có được a. Cố gắng trải nghiệm thật nhiều để cuộc sống thêm phong phú và nhiều niềm vui hơn nhé!!!!",
+      "Giáng sinh vui vẻ",
+      "20/10 không quạu chỉ cười nha :v"
+    ]
+  },
+  {
+    "fullName": "Nguyễn Thị Kiều Hương",
+    "username": "huong.ntk.k65",
+    "image": [],
+    "wish": [
+      "Chúc Hương 20/10 thật nhiều niềm vui, sang năm học mới có nhiều học bổng nhé",
+      "Chúc Hương có 1 ngày 20/10 thật vui vẻ, hạnh phúc nhé; chúc bạn xinh đẹp hơn, may mắn hơn và cười tươi hơn nhé!! Happy Vietnamese Woman's Day :3",
+      "Chúc em gái Hương 20/10 vui vẻ, học bổng, người yêu nhiều không đếm xuể. Hôm nào làm kèo đi Vĩnh Tuy đê e ei :V ",
+      "Chúc bạn một ngày lễ 20/10 đầy ý nghĩa ,vui vẻ, một năm học mới nhiều niềm vui và may mắn,ngày càng xinh đẹp, tự tin và hạnh phúc, đạt được mục tiêu và mong ước của bản thân ",
+      "Chúc bạn Hương ngày càng xinh đẹp học giỏi trong ngày 20/10 nhá, sớm có người yêu nữa nha",
+      "Nhân ngày 20/10, xin chúc bạn Kiều Hương càng ngày càng xinh đẹp, tự tin vào bản thân, luôn luôn vui vẻ, hạnh phúc <3",
+      "chúc Hương có một ngày 20/10 thật ý nghĩa, luôn thuận lợi trên con đường học vấn và cả tình iu nha!!",
+      "Chúc mừng sinh nhật",
+      "20/10 cả ngày ngồi cười nha :v"
+    ]
+  },
+  {
+    "fullName": "Đinh Thị Quỳnh Anh",
+    "username": "anh.dtq.K65",
+    "image": [],
+    "wish": [
+      "Chúc e Quỳnh Anh 20/10 vui vẻ nhé :V Chúc e luôn xinh đẹp, vững bước trên con đường của mình, hb giật vài cái thôi. Mà nhớ chăm đi họp Đội hơn e nhé :v ",
+      "Hãy cảm thấy mình thật đặc biệt trong ngày của bạn nhé, chúc bạn luôn vui vẻ,hạnh phúc bên gia đình và người thân; ngày càng xinh đẹp hơn, học tập tốt và đạt được những thứ mình mong muốn trong tương lai gần nhé :v",
+      "Chúc bạn Quỳnh Anh xinh đẹp học giỏi nhá, lâu lắm không thấy mặt bạn rồi đó :D",
+      "Nhân ngày 20/10, mình chúc bạn Quỳnh Anh luôn luôn xinh đẹp, vui vẻ, tự tin, có những thành công trong học tập và trong cuộc sống :3",
+      "Chúc mừng năm mới",
+      "20/10 luôn vui luôn cười nha :v"
+    ]
+  },
+  {
+    "fullName": "Trần Thị Thanh Dịu",
+    "username": "diu.ttt.K64",
+    "image": [],
+    "wish": [
+      "Chúc chị 20/10 này thật nhiều điều tốt đẹp, vui vẻ , xinh đẹp hơn và ít sóng gió trong tình cảm nhé <3",
+      "20/10 chúc chị Dịu càng ngày càng xinh đẹp, vui vẻ, hạnh phúc và thành công nha!",
+      "Nhân 20/10 chúc Dịu luôn vui tươi, xinh xắn, hạnh phúc và năm học mới nhiều nhiều may mắn nha :v Chơi tiktok khum e oi :v ",
+      "Chúc chị 20/10 này sẽ là một ngày thật vui vẻ và ý nghĩa trong năm, chúc chị luôn xinh đẹp học giỏi ,và tất cả các môn đều A+ nhá chị <3",
+      "Chúc chị ngày lễ 20/10 vui vẻ ,ý nghĩa, một năm học mới gặt hái nhiều niềm vui, thành công. :))",
+      "20/10 cả ngày ngồi cười nha :v"
+    ]
+  },
+  {
+    "fullName": "Nguyễn Thị Hồng Vân",
+    "username": "van.nth.k65",
+    "image": [],
+    "wish": [
+      "Ồ 20/10 chúc bạn vui vẻ, xinh đẹp và đầy ắp niềm vui trong cuộc đời sinh viên sắp tới cùng VIT nhé. (from group 6 with love)",
+      "Chúc em không có được a",
+      "Nhân 20/10 chúc Ngọc Thanh Vân luôn xinh tươi, vui vẻ và may mắn nha :v Năm học mới thuận lợi nữa :v (Để tên thật suýt thì k nhận ra ai :v)",
+      "Nhân 20/10 chúc Ngọc Thanh Vân luôn xinh tươi, vui vẻ và may mắn nha :v Năm học mới thuận lợi nữa :v (Để tên thật suýt thì k nhận ra ai :v)",
+      "Chúc bạn Vân một ngày lễ 20/10 ý nghĩa ,vui vẻ và ngày càng xinh đẹp ,học giỏi ,một năm học mới thành công.,",
+      "20/10 không quạu chỉ cười nha :v"
+    ]
+  },
+  {
+    "fullName": "Thu Thảo",
+    "username": "thao.t.k65",
+    "image": [],
+    "wish": [
+      "Thảo hãy cứ là con người xinh đẹp , nhanh nhẹn và đầy tuyệt vời của bạn . Chúc Thảo một 20/10 đầy trọn vẹn ."
+    ]
+  },
+  {
+    "fullName": "Nguyễn Đình Yến Nhi",
+    "username": "nhi.ndy.k65",
+    "image": [],
+    "wish": [
+      "Chúc bạn 20/10 này càng xinh đẹp , càng giỏi giang , càng mạnh khỏe và càng phải có ny :)"
+    ]
+  },
+  {
+    "fullName": "Phạm Thị Nhung",
+    "username": "nhung.pt.k62",
+    "image": [],
+    "wish": [
+      "Chúc chị em luôn khỏe mạnh vui vẻ nè. Có lẽ thời gian với nhóm làm chị vui thì ít mà buồn thì nhiều. Sắp rời khỏi mái trường Đại học ra đời rồi, mong chị luôn mạnh khỏe bình an nhé :3 ",
+      "Hí chị nhung :3 Là 1 thằng con trai có tiền sử giao tiếp kém và tâm hồn HƠI nhạy cảm, việc được một đàn chị tiếp chuyện vào buổi tối ma sói ở SVD làm em rất vui :3 Sang đến năm thứ 5 cũng là khoảng thời gian cuối cùng trước cánh cửa cuộc đời, chúc chị em nhiều sức khỏe cả về vật chất lẫn tinh thần, xinh xẻo và may mắn trong cả sự nghiệp lẫn tình trường. Chúc chị tận hưởng ngày 20/10 đẹp đẽ và trọn vẹn nhất ",
+      "Hello chị Nhung xinh đẹp, chúc chị 20/10 vui vẻ, ngày càng giỏi giang và may mắn nhé. :33",
+      "Chúc chị Nhung xinh gái của em 20/10 thật vui vẻ và hạnh phúc nhé. Chị nhớ giữ gìn sức khỏe, chăm sóc cho bản thân mình nhiều hơn,  kiếm tiền vừa phải thôi nhé. Hi vọng hết dịch nhóm 8 chúng ta lại sum họp làm bữa nhé chị :3  ",
+      "20/10 quạu cũng phải cười nha chị :3",
+      "20/10 quạu cũng phải cười nha chị :3",
+      "Em trai cưng chúc chị luôn xinh đẹp, vui vẻ, gặp nhiều may mắn trong cuộc sống và giúp e content nhiều hơn nha!!"
+    ]
+  },
+  {
+    "fullName": "Đào Hiền Linh",
+    "username": "linh.dh.k65",
+    "image": [],
+    "wish": [
+      "Chúc anh Thắng may mắn nhé :v Đùa chứ dù sao cũng là 20/10, chúc khỏe mạnh trong dịch bệnh, giỏi giang trong học hành nhé :3",
+      "Chúc bạn ngăn Nimce Smừ làm tạ thành công nhé, và thêm xinh đẹp nhé :3",
+      "Hôm nay là ngày 20/10, nên mình chúc đôi bạn trẻ thêm yêu đời nhé. Chúc riêng bạn Linh xinh đẹp và dịu hiền....hihi  ",
+      "20/10 không quạu chỉ cười nha :v",
+      "Chúc cho 20/10 của Linh thật vui vẻ, Linh ngày càng xinh hơn, và có gia đình hạnh phúc :v   ",
+      "Chúc bạn luôn vv và có nhiều ny nha ",
+      "Chúc bạn luôn xinh tươi, vui vẻ và may mắn trong cuộc sống nhé. Đặc biệt giúp mình chạy dl content nha"
+    ]
+  },
+  {
+    "fullName": "Lê Nguyễn Hương Giang",
+    "username": "giang.lnh.k65",
+    "image": [],
+    "wish": [
+      "Chúc bạn có một ngày 20/10 ý nghĩa nhé, càng ngày càng xinh đẹp và giỏi giang hơn :v",
+      "Chúc dancer luôn sự được sự hề hước trong lời nói và sự ngầu lòi trên sàn nhảy nhé :33",
+      "Zoro nhóm 8 thêm ngầu bớt ngáo nhé :v Chăm chỉ học hành không tạch môn nhe :3 ",
+      "Ngày 20/10 chúc e gacha nở hoa, phong cách ngày càng ngầu lòi trên sàn nhảy và nhiều may mắn trong cuộc sống nhé em ;3",
+      "Chúc bạn ngày 20/10 luôn vui tươi, xinh đẹp và thành công hơn nhé ♥‿♥",
+      "Chúc bạn ngày 20/10 luôn vui tươi, xinh đẹp và thành công hơn nhé ♥‿♥",
+      "20/10 bớt quạu hay cười nha :v ",
+      "Chúc em Giang 20/10 càng ngày càng xinh, bớt giang hồ đi và thành công nhiều hơn nhé :3 ",
+      "Chúc chủ tịch luôn luôn giữ phong độ để ra những kiểu tóc mới cho ae nha...",
+      "Chúc bạn tóc xanh 20/10 vui vẻ và hạnh phúc nhé. Mong sẽ có nhiều màu tóc mới :))"
+    ]
+  },
+  {
+    "fullName": "Lê Thị Nguyệt",
+    "username": "nguyet.lt.k65",
+    "image": [],
+    "wish": [
+      "Chúc em luôn nhí nhố ngáo ngơ nhé em :v Dù sao cũng là 20/10 nên chúc em xinh đẹp, khỏe mạnh, kì tới không tạch môn :v Thế là tuyệt rồi nhỉ.",
+      "Hi, Nguyệt. Ngày mới tốt lành. Hnay 20/10 nài, chúc bạn ngày càng xinh xắn, yêu trường, yêu lớp, yêu đời nhiều vào nhé....:3",
+      "Năm nhất có vẻ nhiều khó khăn nhưng thôi bỏ qua hết đi em nhé, tận hưởng năm 2 thôi. Chúc em gái 20/10 vui vẻ, càng ngày càng xinh ra nhé, rồi kiếm học bổng nữa nha :3 ",
+      "20/10, quạu cũng phải cười nha :v",
+      "Chúc m mau ăn chóng lớn để có sức mà đạp xe ...",
+      "Chúc bạn 20/10 vui vẻ, hạnh phúc và luôn hồn nhiên xinh đẹp nhé"
+    ]
+  },
+  {
+    "fullName": "Trần Phương Trang",
+    "username": "trang.tp.k65",
+    "image": [],
+    "wish": [
+      "Chúc bạn có một ngày 20/10 ý nghĩa nhé, càng ngày càng xinh đẹp và giỏi giang hơn :v",
+      "chúc e có 1 ngày 20/10 tuyệt vời như chính em vậy. Chúc em tất cả, chúc e đạt đc mọi điều mình mong ước, mọi dự định trong tương lai",
+      "Chúc Trang luôn xinh đẹp, vui vẻ, đạt được nhiều mong ước trong tương lai, và luôn cười tươi bạn nhé <33 (from 1 bạn nam cùng nhóm VTT with love❤️)",
+      "20/10 cả ngày ngồi cười nha :v",
+      "Chúc em luôn khỏe mạnh vui tươi, sau dịch vẫn lặn lội sang HUST nhé :v",
+      "Chúc bạn 20/10 vui vẻ, giữ lời hứa đi chiến dịch cùng nhau nhé"
+    ]
+  },
+  {
+    "fullName": "Bùi Thị Vũ Hạnh",
+    "username": "hanh.btv.k65",
+    "image": [],
+    "wish": [
+      "Chúc em có 1 ngày 20 tháng 10 thật tuyệt vời, sớm ngày kb fb với a nhé haha",
+      "Chúc em có 1 ngày 20 tháng 10 thật tuyệt vời, sớm ngày kb fb với a nhé haha",
+      "20/10 luôn tươi luôn cười nha :v",
+      "Chúc em luôn mạnh khỏe xinh xẻ vui vẻ :v",
+      "Chúc em bớt đụt, chúc em biết đi xe máy đặc biệt là ko đi số 4 lên dốc, chúc em không hay quên đồ nữa, chúc em tìm dc ny 🌝",
+      "Chúc bạn 20/10 vui vẻ, sớm có ny và biết chặt gà :)"
+    ]
+  },
+  {
+    "fullName": "Phạm Minh Trang",
+    "username": "trang.pm.k65",
+    "image": [],
+    "wish": [
+      "Chúc Trang 20/10 thật nhiều niềm vui và xinh đẹp tuyệt vời🥰🥰",
+      "Chúc chị một ngày lễ 20/10 đầy ý nghĩa ,vui vẻ, một năm học mới nhiều niềm vui và may mắn,ngày càng xinh đẹp, tự tin .",
+      "Em chúc chị một ngày 20/10 thật trọn vẹn và ý nghĩa nhé; chúc chị có thật nhiều sức khỏe, xinh đẹp hơn và học tập tốt hơn nhé ạ :3",
+      "Chúc chị không có được em",
+      "Người tuyệt vời như e xứng đáng có 10 ny. Nên a chúc e có nhiều ny nhé",
+      "Em chúc chị Trang 20/10 luôn xinh tươi, vui vẻ và học tập tốt hơn chị nhé<333",
+      "Sớm tìm nửa kia đi chị, tuyệt vời như chị xứng đáng nhiều ny💖",
+      "Chúc chị 20/10 luôn xinh đẹp, vui vẻ và thành công trong cuộc sống!!",
+      "Chúc chị Trang 20/10 vui vẻ, sớm rinh học bổng để còn bao chúng em Phúc Long dài dài :>>"
+    ]
+  },
+  {
+    "fullName": "Ánh Vân",
+    "username": "van.na.k65",
+    "image": [],
+    "wish": [
+      "Chúc Vân ngày càng xinh đẹp, học giỏi, có nhiều học bổng nhé!",
+      "Idol master quá rồi, ko biết chúc gì hơn, BK ko có hb A+ đâu idol, học vừa thôi, đi chơi đi, cứ ngồi học phí  nhan sắc lắm ^_^",
+      "Chúc cho Vân ngày càng xinh đẹp và thành công trong cuộc sống",
+      "Chúc em không có được a",
+      "Hoa Hướng Dương: Giống như bông hoa, mang một vẻ đẹp mạnh mẽ, cứng rắn. Cây thẳng đứng chính là sự kiên cường, nỗ lực, nhiệt huyết để tạo nên sự thẳng thắn, đơn giản, không cần cầu kì kiểu cách. Mang cho mình sức sống tiềm tàng và lan tỏa sức mạnh đó đến thế giới này làm thế giới thêm tràn đầy năng lượng, sống động hơn, rực rỡ hơn. Hãy tiếp tục đứng vững theo đuổi những thứ mình muốn và những điều tích cực để thêm rực rỡ và lan tỏa đến mọi người nha. 20/10 vui vẻ nhé.\n\n",
+      "Chúc Ánh Vân luôn vui vẻ, xinh đẹp. Chúc Vân học tập tốt và thành công hơn !\n\n",
+      ":)) Vân 20/10 vui vẻ nhá, ngày càng xinh đẹp và thành công trong cuộc sống\n\n",
+      "20/10 không quạu chỉ cười nha :v\n\n"
+    ]
+  },
+  {
+    "fullName": "Phương Thị Thùy Linh",
+    "username": "linh.ptt.k65",
+    "image": [],
+    "wish": [
+      "Cảm ơn b viết content cho mình nhé, chúc bạn 20/10 zui thật zui :>",
+      "20/10 không quạu chỉ cười nha :v",
+      "Chúc Linh ngày càng xinh đẹp hơn. Bảng điểm full A, A+ nhá :))"
+    ]
+  },
+  {
+    "fullName": "Đinh Ngọc Hạnh Trang",
+    "username": "trang.dnh.k65",
+    "image": [],
+    "wish": [
+      "Lời chúc : Chúc tất cả các bạn nữ có một ngày 20/10 thật là tuyệt vời, trọn vẹn. Chúc các bạn ngày càng xinh xắn, đáng iu, học giỏi, ngày càng tự tin iu đời để tận hưởng thanh xuân tuyệt vời của mình. Chúc các bạn trong thời gian tới đạt được mọi điều, mọi dự định mà mình mong muốn(from fan boy ble with love).",
+      "Chúc bạn một ngày 20/10 đáng nhớ nhé, về những điều như xinh đẹp, giỏi giang, sự tự tin và bãn lĩnh là những thứ bạn.... có rồi, nên chỉ chúc bạn thật vui vẻ và hoàn thành được mục tiêu và mong ước của mình nhé <3",
+      "Chúc bạn một ngày lễ 20/10 đầy ý nghĩa ,vui vẻ, một năm học mới nhiều niềm vui và may mắn,ngày càng xinh  đẹp, tự tin và hạnh phúc, đạt được mục tiêu và mong ước.",
+      "Tạm gác lại việc học hành để có một ngày thật ý nghĩa và những khoảnh khắc tuyệt vời bên gia đình và người thân của bạn nhé :3 chúc phó nhóm luôn vui vẻ, hạnh phúc, có thật nhiều sức khỏe và một năm học mới học tập tốt, may mắn để đạt được muc tiêu mà mình đã đặt ra nhé :v",
+      "Chúc em không có được a",
+      "Chúc em không có được a",
+      "Chúc em chụp hoa sữa thật là đẹp để mọi người được chiêm ngưỡng với nhé <3",
+      "chúc chị Changg luôn vui vẻ, xinh đẹp ạ, 1 ng siêu giàu, siêu giỏi ạ>>>",
+      "Chúc Chang bớt ngáo, sớm được thông cột",
+      "20/10 không quạu chỉ cười nha :v",
+      "Dạo này gầy quá, chúc em gái Changg mau ăn chóng lớn nha. Nếu mà lười nấu ăn thì qua đây a nấu ăn cho này, a chưa biết nấu ăn nhưng chắc giờ bắt đầu học vẫn kịp nhỉ😶😶",
+      ":3 Em gái Changg 20/10 vui vẻ nha, dạo này hơi gầy đấy ăn uống đầy đủ vào nhé",
+      "HC nhiều người chúc thế :v Thui thì thiếu gì chúc đó chúc HC 4.0 nhé",
+      "I wish you all the happinesses in the world"
+    ]
+  },
+  {
+    "fullName": "Nguyễn Thị Thu Thảo",
+    "username": "thao.ntt.k65",
+    "image": [],
+    "wish": [
+      "Chúc chị Thảo ngày 20/10 thật ý nghĩa nhé, lên HN lại set kèo đi chơi của nhóm 1 VTT nhé :>",
+      "20/10 không quạu hay cười nha :v",
+      "Em chúc chị Thảo rạng rỡ không chỉ 20/10 mà cả năm luôn nhé. Chúc người chị Ý Yên học thật tốt luôn hehe best wishes !!!!",
+      "Chúc Toản 20/10 vui vẻ nha <3 ",
+      "chúc chị 20/10 luon rực rỡ xinh đẹp và nhiều niềm vui"
+    ]
+  },
+  {
+    "fullName": "Đinh Thị Hương",
+    "username": "huong.dt.k65",
+    "image": [],
+    "wish": [
+      "Chúc Lead nhảy nữ VTT của chúng mình một 20/10 thật hạnh phúc và ngập tràn niềm vui nhé :3",
+      "Chúc em một ngày 20/10 thật vui vẻ, hạnh phúc bên người thân nha",
+      "Chúc Fan nhí của Sơn Tùng 20/10 càng ngày xinh gái, học giỏi hơn nhé <3",
+      "Chúc bạn có một ngày 20/10 tràn đều niềm vui và vớ được một anh ny xịn.",
+      "20/10 không quạu hay cười nha :v"
+    ]
+  },
+  {
+    "fullName": "Nguyễn Kiều Trang",
+    "username": "trang.nk.k65",
+    "image": [],
+    "wish": [
+      "Chúc bạn lớp bên một ngày 20/10 thật vui vẻ, hạnh phúc, học giỏi hơn để gánh mình vượt qua SAMI nhé :3",
+      "Chúc em ngày 20/10 vui vẻ, xinh đẹp và học thật giỏi nha",
+      "chúc em Trang cute 20/10 học giỏi, xinh đẹp nhiều người yêu nha, nhớ đi ngủ sớm nữa đấy :v",
+      "Chúc bạn Trang 20/10 vui vẻ và hạnh phúc bên gia đình bạn bè. A+ hết các môn của SAMI :D",
+      "20/10 cả ngày ngồi cười nha :v",
+      "Chúc MC Trang 20/10 ngày càng xinh đẹp nha ;)"
+    ]
+  },
+  {
+    "fullName": "Nguyễn Thị Lan",
+    "username": "lan.nt.k65",
+    "image": [],
+    "wish": [
+      "Nhân 20/11 chúc em gái Lan ngày càng đáng yêu, học giỏi, thành công trong công việc nhé :3",
+      ":3 Chúc em gái Lan ngày càng cute phô mai qua, học giỏi, thành đạt nha",
+      "chúc em gái lan 20/10 vui vẻ, hạnh phúc và cười nhiều hơn nữa nhé !!!!",
+      "Chúc bạn Lan trường bên có một ngày 20/10 dài tràn đầy niềm vui và hành phúc bên gia đình và bạn bè.",
+      "20/10 không buồn chỉ cười nha :v"
+    ]
+  },
+  {
+    "fullName": "Nguyễn Thị Khánh My",
+    "username": "my.ntk.k65",
+    "image": [],
+    "wish": [
+      "Ôi bạn ơi, ngày càng xinh đẹp, vui vẻ, hạnh phúc hơn nữa bạn nhé. Khi nào off mời tôi bữa nhậu là đc, khỏi cảm ơn - \"Hoàng\"",
+      "Chúc em không có được a",
+      "Mong bạn mãi luôn xinh đẹp, vui tươi và hạnh phúc. Chúc cho mọi dự định trong tương lai của bạn luôn gặt hái được thành công.",
+      "Chúc bạn My 20/10 vui vẻ, tỉnh táo hơn khi nghe lời dụ dỗ của Nghĩa Đinh",
+      "20/10 luôn vui luôn cười nha :v"
+    ]
+  },
+  {
+    "fullName": "Phạm Hồng Thắm",
+    "username": "tham.pt.k65",
+    "image": [],
+    "wish": [
+      "Ngày càng xinh đẹp, hạnh phúc, vui vẻ nhé bạn tôi, và sớm có người yêu nữa :)) Đừng như mình - \"Hoàng\"",
+      "Xinh hơn , vui hơn, yêu đời hơn là những lời chúc mình muốn nhắn gửi đến bạn. À và cũng sớm có người yêu như bạn Hoàng nhé.",
+      "Chúc bạn Thắm gánh mình được A+ cấu liệu",
+      "20/10 không buồn hay cười nha :v",
+      "Chúc em không có được a"
+    ]
+  },
+  {
+    "fullName": "Nguyễn Thị Linh",
+    "username": "linh.nt.k65",
+    "image": [],
+    "wish": [
+      "Nhân dịp 20/10 này chúc bạn ngày càng xinh đẹp, học giỏi và vui vẻ hơn trong cuộc sống nhé (from group 3 with love)",
+      "Thường thì người ta thiếu cgi mới chúc cái đó mà bạn Linh cgi cũng có hết rồi chả biết chúc gì hơn. Thôi thì nhân ngày 20/10 này mình chúc bạn có thật nhiều sức khỏe để đóng góp sức trẻ và sự nhiệt huyết của mình cho Đội nhó!",
+      "Chúc bạn 20/10 vui vẻ ...",
+      "20/10 zui zẻ b nhé, lên HN Tuyến sẽ bao cả nhóm ND MC :>",
+      "Chúc NinhNT xinh đẹp sớm có chân ái , Thương Thương :D ",
+      "Yêu Linh <3 ",
+      "Yêu Linh <3 ",
+      "20/10 không quạu hay cười nha :v"
+    ]
+  },
+  {
+    "fullName": "Nguyễn Thị Mai",
+    "username": "mai.nt.k65",
+    "image": [],
+    "wish": [
+      "Nhân dịp 20/10 này chúc bạn ngày càng xinh đẹp, học giỏi và vui vẻ hơn trong cuộc sống nhé (from group 3 with love)",
+      "Chúc bạn 20/10 thật vui vẻ, trẻ khỏe, đầy sức sống và hoạt động thật nhiệt huyết! ",
+      "20/10 vui vẻ, m ác vừa thôi thì có người chơi cùng...",
+      "Chúc b 20/10 zui zẻ, ko quạu :>",
+      "Chúc cho cô gái FTU nho nhỏ xinh xinh 20/10 vui vẻ hạnh phúc. Hẹn gặp Mai vào 1 ngày gần nhất nhaa ^^",
+      "20/10 luôn vui luôn cười nha :v"
+    ]
+  },
+  {
+    "fullName": "Hoàng Tố Uyên",
+    "username": "uyen.ht.k65",
+    "image": [],
+    "wish": [
+      "Chúc Uyên ngày càng xinh đẹp tuyệt vời và sớm có được anhs(21)!",
+      "Chúc bạn Uyên ngày càng giỏi giang hơn , xinh đẹp hơn và tràn đầy hành phúc trong cuộc sống , có ny thì nhớ khao nhé (from TH with love)",
+      "mình thấy ae cứ chúc Uyên xinh mà Uên xinh sẵn rồi nên mình hong chúc nữa! Nhân dịp 20/10 chúc Uyên gặt hái đc thật nhiều thành công trong công việc và học tập ! ;)",
+      "Chúc cho Uyên ngày càng xinh đẹp và thành công trong cuộc sống",
+      "Chúc em không có được a",
+      "Hoa Nhài: Giống như bông hoa, mang một vẻ đẹp bên ngoài nhẹ nhàng thiện cảm với màu trắng đơn giản tinh khôi. Chẳng cần đến màu sắc bắt mắt cầu kì, sự đơn giản tạo nên vẻ đẹp trang nhã, thanh tao. Điều nổi bật nhất là chính bông hoa này tỏa ra một mùi hương thơm có nhẹ nhàng dịu dàng, và đó lại càng làm bông hoa thêm hoàn mỹ từ trong ra ngoài, từ thị giác cho đến khứi giác của người thưởng hoa. Nếu có cơ hội mình thật muốn ngồi ở trong vườn hoa nhài, nhâm nhi một hai chén trà thưởng thức trọn vẹn vẻ đẹp của loài hoa này. Cô gái à, hãy tiếp tục giữ cho mình đẹp như vậy và tiếp tục càng ngày càng thêm phần tinh tế, thêm phần khí chất. 20/10 vui vẻ nha.\n\n",
+      "Chỉ biết chúc Uyên luôn vui tươi, luôn xinh đẹp, luôn hạnh phúc. Chúc Uyên ngày càng trưởng thành hơn, học tập tốt hơn và thành công hơn trong cuộc sống nhé ! (from someone like you)\n\n",
+      "Chúc Uyên xinh đẹp tuyệt vời, học giỏi, sớm chọn được người anh NDS giấu tên nhé\n",
+      "20/10 bớt quạu hay cười nha :v\n",
+      "chúc em có đc anh\n"
+    ]
+  },
+  {
+    "fullName": "Ngụy Thị Lan Anh",
+    "username": "anh.ntl.k65",
+    "image": [],
+    "wish": [
+      "Chúc e gái Anh Ang luôn xinh đẹp, nâng cao sức khỏe để trả kèo sau dịch! 😂😂\n",
+      "Chúc bạn Anh Ang(ẳng) luôn xinh đẹp, giỏi giang và nhậu tốt hơn :3\n",
+      "Chúc bạn Ang Ang 20/10 tửu lượng tốt hơn chứ như lày thì hnao nhậu  cx phải cõng b về mệt lắm !!!!\n",
+      "Chúc cho Ang Ang ngày càng xinh đẹp và thành công trong cuộc sống",
+      "Chúc em không có được a",
+      "Chúc bạn Anh Ang luôn xinh đẹp, vui vẻ, sớm đạt được ước mơ của mình nhé<333",
+      "Hoa Nghệ Tây: Giống như bông hoa, chính nó mang cả mang sự tương phản khi nhìn từ bên ngoài. Cánh hoa màu tím nhạt, nhưng nhụy hoa lại có màu đỏ pha chút vàng. Với mình thì nó khá nhẹ nhàng qua bên ngoài cho cảm giác tương đối mỏng manh, long lanh. Nhưng bên trong lại mang sự nhiệt huyết, hết mình của thanh xuân. Thanh xuân này, hãy vui vẻ, tươi trẻ, làm điều mình thích và cười thật nhiều, đừng sợ, đừng ngại hãy vì thanh xuân ngắn ngủi mà sống hết mình nhé cô gái. 20/10 vui vẻ nha.\n\n",
+      "Chúc em gái Ang Ang luôn vui tươi, yêu đời. Chúc Ang luôn xinh đẹp, học tập tốt và thành công hơn nhé !\n",
+      "20/10 không ẳng chỉ cười nha :v",
+      "Chúc em gái Ang luôn xinh đẹp, vui vẻ, học giỏi nha. Chúc em sớm đạt được dự định của mình và chọn được 1 anh zai trong list :)) ",
+      "Này cô gái, tôi đã không được tiếp xúc với bạn nhiều, nhưng riêng lần nói chuyện đó đã gây ấn tượng rất mạnh cho tôi về bạn. Một cô gái với vẻ ngoài yếu đuối với hay bị mọi người trêu chọc, sâu bên trong lại tồn tại một ước mơ lớn lao cùng một nghị lực phi thường, và may sao tôi là một trong số ít người biết được điều này. Tôi cũng vô cùng ngưỡng mộ bạn vì bạn đã tìm được cho mình một đam mê và có nghị lực để thực hiện nó- điều mà tôi chưa thể làm được. Và giờ đây, nhân dịp 20/10 này, tôi chúc bạn thành công trên con đường mà bạn đã lựa chọn, chúc bạn bách chiến bách thắng, thẳng tiến tới vinh quang đang chờ đợi bạn. ”Khi bạn khát khao một điều gì đó, cả vũ trụ sẽ giúp bạn đạt được điều đó”. Dù rằng bạn có thể sẽ sớm không còn hoạt động chung với bọn tôi nữa, nhưng mà nếu có bất cứ khó khăn gì, hay có ai bắt nạt bạn, đừng ngần ngại mà hãy gọi ngay cho ae VIT nhé!"
+    ]
+  },
+  {
+    "fullName": "Nguyễn Thị Thư",
+    "username": "thu.nt.k64",
+    "image": [],
+    "wish": [
+      "Chúc Thư luôn xinh đẹp tuyệt vời, có thật nhiều A với A+ nhé!\n\n",
+      "Chúc cho Thư ngày càng xinh đẹp và thành công trong cuộc sống\n",
+      "Chúc chị không có được e\n",
+      "Chúc Thư luôn vui vẻ, xinh gái, Chúc Thư học tập tốt và thành công hơn nhé !\n",
+      "Idol 20/10 vui vẻ, chúc idol sớm đạt được hobo :)) \n",
+      "20/10 không quạu chỉ cười nha :v \n",
+      "Chúc chị gắn bó với Đội cũng như với mọi người thật lâu và có những kỉ niệm vui vẻ nhé ạ\n"
+    ]
+  },
+  {
+    "fullName": "Ngô Thị Duyên",
+    "username": "duyen.nt.k65",
+    "image": [],
+    "wish": [
+      "Hmmm, một cô gái nhí nhảnh :)) Chúc cô gái 20/10 vui vẻ, sức khỏe, học tốt. Mong rằng sẽ cùng gắn bó lâu dài với Đội nhé !",
+      "Thấy bạn lúc nào cũng hài hước lắm, chúc bạn luôn giữ được nụ cười trên môi và nguồn năng lượng tích cực đó nhé ;)))",
+      "20/10 vui vẻ hay cười nha :v",
+      "20/10 học hành giỏi giang, đừng bắt anh phải làm bài hộ nữa :v"
+    ]
+  },
+  {
+    "fullName": "Vũ Thị Hiền",
+    "username": "hien.vt.k64",
+    "image": [],
+    "wish": [
+      "Hmmm, một người chị khá là đảm đang và có nhiều cái tên. Chúc chị 20/10 vui vẻ, sức khỏe, học tốt nhé ! Hi vọng rằng sẽ được cùng chị gắn bó lâu dài cùng Đội !",
+      "Chúc bạn Hiền 20/10 vui vẻ, hạnh phúc, luôn xinh đẹp và thành công nha<3",
+      "Nhân ngày 20/10 chúc chị Hiền nhiều sức khỏe và thành công trong chặng đường sắp tới ạ =)))",
+      "20/10 vui vẻ hay cười nha :v"
+    ]
+  }
 ]
