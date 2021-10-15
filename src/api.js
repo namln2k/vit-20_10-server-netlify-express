@@ -88,13 +88,10 @@ router.post('/', (req, res) => {
         password: req.body.password,
     }
 
-    console.log(loginInfo.username);
-    console.log(loginInfo.password);
-
     // Init response
     var fullName = "";
-    var img_h = [];
-    var img_v = [];
+    var image_h = [];
+    var image_v = [];
     var wish = [];
 
     // Validate login
@@ -117,15 +114,15 @@ router.post('/', (req, res) => {
         var girl = findByUsername(loginInfo.username);
 
         fullName = girl.fullName;
-        img_h = girl.img_h;
-        img_v = girl.img_v;
+        image_h = girl.image_h;
+        image_v = girl.image_v;
         wish = girl.wish;
 
         res.status(200).json({
             message: "Success",
             fullName: fullName,
-            img_h: img_h,
-            img_v: img_v,
+            image_h: image_h,
+            image_v: image_v,
             wish: wish
         })
     }
