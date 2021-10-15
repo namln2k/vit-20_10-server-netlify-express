@@ -111,6 +111,8 @@ router.post('/', (req, res) => {
     else {
         var girl = findByUsername(loginInfo.username);
 
+        console.log(girl);
+
         fullName = girl.fullName;
         image = girl.image;
         wish = girl.wish;
