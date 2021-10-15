@@ -82,14 +82,14 @@ function findByUsername(username) {
 
 // Handle post request with body { username, password }
 router.post('/', (req, res) => {
-    // Log request
-    console.log(req);
-
     // Get username and password
     const loginInfo = {
         username: req.body.username,
         password: req.body.password,
     }
+
+    console.log(loginInfo.username);
+    console.log(loginInfo.password);
 
     // Init response
     var fullName = "";
