@@ -93,7 +93,8 @@ router.post('/', (req, res) => {
 
     // Init response
     var fullName = "";
-    var image = [];
+    var img_h = [];
+    var img_v = [];
     var wish = [];
 
     // Validate login
