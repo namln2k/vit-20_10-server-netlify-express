@@ -116,13 +116,15 @@ router.post('/', (req, res) => {
         var girl = findByUsername(loginInfo.username);
 
         fullName = girl.fullName;
-        image = girl.image;
+        img_h = girl.img-h;
+        img_v = girl.img-v;
         wish = girl.wish;
 
         res.status(200).json({
             message: "Success",
             fullName: fullName,
-            image: image,
+            img_h: img_h,
+            img_v: img_v,
             wish: wish
         })
     }
