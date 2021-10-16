@@ -94,6 +94,8 @@ router.post('/', (req, res) => {
     var image_v = [];
     var wish = [];
 
+    console.log(loginInfo);
+
     // Validate login
     var isLoginValid = validateLogin(loginInfo.username, loginInfo.password);
 
@@ -117,6 +119,11 @@ router.post('/', (req, res) => {
         image_h = girl.image_h;
         image_v = girl.image_v;
         wish = girl.wish;
+
+        console.log("Full name: " + fullName);
+        console.log("Image-h: " + image_h);
+        console.log("Image-v: " + image_v);
+        console.log("Wish: " + wish);
 
         res.status(200).json({
             message: "Success",
