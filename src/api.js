@@ -55,6 +55,11 @@ function validateLogin(username, password) {
             return 1;
         else
             return 0;
+    if (username == "linh.btt.k63")
+        if (password == "thuylinh4ever")
+            return 1;
+        else
+            return 0;
     if (password != PASSWORD)
         // If password is wrong
         return 0;
